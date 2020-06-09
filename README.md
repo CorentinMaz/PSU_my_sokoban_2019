@@ -17,3 +17,10 @@ The game must be reset by pressing the space bar. Redimensioning the terminal mu
 The game must be able to be played with the arrow keys (LEFT, RIGHT, UP and DOWN).
 
 A valid map can only contains the characters SPACE, ‘\n’, ‘#’, ‘X’, ‘O’ and ‘P’. If an invalid map is supplied, the program must exit with an error.
+
+<code>∼/B-PSU-100> ./my_sokoban -h
+USAGE
+	./my_sokoban map
+DESCRIPTION
+	map  file representing the warehouse map, containing `#' for walls,
+       `P' for the player, `X' for boxes and `O' for storage locations.</code>
