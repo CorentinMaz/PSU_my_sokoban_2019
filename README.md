@@ -24,3 +24,18 @@ USAGE
 DESCRIPTION
 	map  file representing the warehouse map, containing `#' for walls,
        `P' for the player, `X' for boxes and `O' for storage locations.</code></pre>
+
+Here is an example of map file:
+
+<pre><code>∼/B-PSU-100> cat map
+    #####             
+    #   #             
+    # X #             
+  ###   ###           
+  #O      #           
+### # ### #     ######
+#   # ### #######    #
+#   OX               #
+##### #### # ####   P#
+    #  OX  ###  ######
+    ########         </code></pre>
